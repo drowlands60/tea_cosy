@@ -1,0 +1,170 @@
+/* general rules */
+
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+main {
+    position: relative;
+    top: 42px;
+}
+
+/*header elements*/
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-decoration: underline;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    background-color: black;
+
+}
+
+header img {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+header span{
+    margin: 0 1rem;
+}
+
+
+
+header span a{
+    color: seashell;
+    
+}
+
+/*banner elements*/
+
+.banner {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    
+}
+
+.banner div{
+    background-color: black;
+    margin: auto 0;
+    width: 100%;
+}
+
+/*teas divs */
+
+.tea-section{
+    margin-top: 4rem;
+}
+
+.teas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.teas .img-container{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.teas img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+.tea-tile p{
+    margin-top: 10px;
+    
+}
+
+/*Locations elements*/
+
+.locations{
+    background-image: url('../images/locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    margin-top: 5rem;
+    padding: 4rem;
+    
+    
+}
+
+.locations h2{
+    margin: 0;
+    
+}
+
+.location-tile{
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    display: inline-block;
+    margin: 15px 20px;
+    
+}
+
+.location-tile h3{
+    margin: 0.5rem auto;
+}
+
+.location-tile p{
+    margin: 1.8rem auto;
+}
+
+/*contact elements*/
+
+.contact {
+    background-color: black;
+    height: 200px;
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+.contact h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 2.5rem;
+
+}
+
+/*footer*/
+
+footer {
+    text-align: left;
+    font-size: 0.75rem;
+    padding: 10px;
+}
